@@ -1,14 +1,14 @@
-package = "bgcrypto-sha"
-version = "scm-0"
+package = "fly-bgcrypto-sha"
+version = "0.0.1-1"
 
 source = {
-  url = "https://github.com/moteus/lua-bgcrypto-sha/archive/master.zip",
-  dir = "lua-bgcrypto-sha-master",
+  url = "https://github.com/superfly/lua-bgcrypto-sha/archive/0.0.1.zip",
+  dir = "lua-bgcrypto-sha-0.0.1",
 }
 
 description = {
   summary  = "SHA1/SHA2 digest library",
-  homepage = "https://github.com/moteus/bgcrypto-sha",
+  homepage = "https://github.com/superfly/lua-bgcrypto-sha",
   detailed = [[Binding to Dr Brian Gladman's implementation of SHA/HMAC algorithm.]];
   license = "BSD",
 }
@@ -44,4 +44,3 @@ build = {
 
   modules = make_module();
 }
-

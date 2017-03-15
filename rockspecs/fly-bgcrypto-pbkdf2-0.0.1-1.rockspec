@@ -1,4 +1,4 @@
-package = "bgcrypto-pbkdf2"
+package = "fly-bgcrypto-pbkdf2"
 version = "0.0.1-1"
 
 source = {
